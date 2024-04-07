@@ -364,3 +364,9 @@
     margin: 10px;
     margin-left: 80px;
 }
+/* Footer Section */
+.footer-section{
+    height: 20vh;
+    width: 100%;
+    background-color: #1ca6ef;
+}
