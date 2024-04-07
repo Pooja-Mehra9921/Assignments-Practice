@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.bird-body{
+    height: 150px;
+    width: 150px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+.body-circle1{
+    position: absolute;
+    border-radius: 50%;
+    border: 95px solid transparent;
+    border-top-color: skyblue;
+    border-left-color: skyblue;
+    transform: rotate(165deg);
+}
+.bird-tale{
+    height: 50px;
+    width: 90px;
+    margin-top: 150px;
+    position: absolute;
+}
+.body-circle2{
+    position: absolute;
+    border-radius: 50%;
+    border: 72px solid transparent;
+    border-top-color: rgba(135, 207, 235, 0.39);
+    border-left-color: rgba(135, 207, 235, 0.39);
+    transform: rotate(264deg);
+    margin-top: -19px;
+    z-index: 3;
+}
+.body-circle3{
+    position: absolute;
+    border-radius: 50%;
+    border: 66px solid transparent;
+    border-top-color: skyblue;
+    border-left-color: skyblue;
+    transform: rotate(249deg);
+    margin-top: -22px;
+    margin-left: -1px;
+    z-index: 2;
+}
+.body-circle4{
+    position: absolute;
+    border-radius: 50%;
+    border: 57px solid transparent;
+    border-top-color: rgba(135, 207, 235, 0.39);
+    border-left-color: rgba(135, 207, 235, 0.39);
+    transform: rotate(241deg);
+    margin-top: -21px;
+    margin-left: 17px;
+    z-index: 1;
+}
+/* Wings Section */
+.bird-wings, .bird-wings2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    z-index: -1px;
+}
+.wing1{
+    position: absolute;
+    border-radius: 50%;
+    border: 72px solid transparent;
+    border-top-color: rgba(135, 207, 235, 0.39);
+    border-left-color: rgba(135, 207, 235, 0.39);
+    transform: rotate(110deg);
+    margin-top: 8px;
+    z-index: 3;
+    margin-left: -108px;
+}
+.wing2{
+    position: absolute;
+    border-radius: 50%;
+    border: 72px solid transparent;
+    border-top-color: rgba(170, 135, 235, 0.5);
+    border-left-color: rgba(170, 135, 235, 0.5);
+    transform: rotate(98deg);
+    margin-top: 0px;
+    z-index: -2;
+    margin-left: -82px;
+}
+.wing3{
+    position: absolute;
+    border-radius: 50%;
+    border: 88px solid transparent;
+    border-top-color: rgba(135, 207, 235, 0.39);
+    border-left-color: rgba(135, 207, 235, 0.39);
+    transform: rotate(71deg);
+    margin-top: -26px;
+    z-index: 3;
+    margin-left: -90px;
+}
+.wing4{
+    position: absolute;
+    border-radius: 50%;
+    border: 105px solid transparent;
+    border-top-color: rgba(135, 207, 235, 0.39);
+    border-left-color: rgba(135, 207, 235, 0.39);
+    transform: rotate(63deg);
+    margin-top: -52px;
+    z-index: 3;
+    margin-left: -80px;
+}
+.wing5{
+    position: absolute;
+    border-radius: 50%;
+    border: 103px solid transparent;
+    border-top-color: rgba(170, 135, 235, 0.5);
+    border-left-color: rgba(170, 135, 235, 0.5);
+    transform: rotate(58deg);
+    margin-top: -59px;
+    z-index: -2;
+    margin-left: -55px;
+}
+.wing6{
+    position: absolute;
+    border-radius: 50%;
+    border: 116px solid transparent;
+    border-top-color: rgba(135, 207, 235, 0.39);
+    border-left-color: rgba(135, 207, 235, 0.39);
+    transform: rotate(45deg);
+    margin-top: -74px;
+    z-index: 3;
+    margin-left: -69px;
+}
+.head{
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    margin-top: -168px;
+    margin-left: 166px;
+    background-color: skyblue;
+    border-top-left-radius: 50px;
+    transform: rotate(30deg);
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 20px;
+}
+.eye{
+    height: 9px;
+    width: 9px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 41px;
+}
+.nose{
+    height: 0px;
+    border: 6px solid transparent;
+    border-radius: 50%;
+    border-top-color: skyblue;
+    border-left-color: skyblue;
+    transform: rotate(162deg);
+    margin-top: 2px;
+    margin-left: 43px;
+    margin-right: -75px;
+}

@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Head Section */
+
+.head{
+    width: 50%;
+    height: 30%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: none;
+}
+.logo-section{
+    width: 15%;
+}
+.satya{
+    height: 100px;
+    width: 70px;
+}
+.passport-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+}
+.passport-para{
+    text-align: justify;
+    font-size: 12px;
+    margin: 10px;
+    font-weight: 700;
+}
+/* Service section */
+.service-required, .applicant-details, .other-details, .present-details, .identity-details, .energency-details , .place-of-birth, .family-details{
+    width: 50%;
+    background-color: rgb(215, 210, 210);
+}
+.service, .applicant, .applicant-name, .other, .place, .family, .present, .energency, .identity{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px;
+}
+/* Dropdown section */
+.dropdown-section{
+    display: flex;
+    width: 50%;
+    font-size: 12px;
+    margin: 5px;
+    font-weight: 700;
+}
+.apply{
+    margin-right: 20px;
+}
+select{
+    width: 200px;
+    margin-left: 95px;
+    font-size: 12px;
+    height: 20px;
+}
+/* checkbox-section */
+.checkbox-section1, .checkbox-section2{
+    display: flex;
+    font-size: 12px;
+    margin: 5px;
+    font-weight: 700;
+}
+.type{
+    margin-right: 20px;
+}
+/* Applicant Details */
+.all-inputs{
+    width: 50%;
+    background-color: rgb(226, 236, 241);
+    margin-top: 0px;
+}
+.gender-section{
+    display: flex;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.date{
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.date-text{
+    margin: 5px;
+    margin-right: 20px;
+}
+.town-city{
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 5px;
+}
+.town{
+    margin-right: 20px;
+}
+.marital-section{
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    width: 50%;
+    margin: 5px;
+}
+.marital-status, .citizen-status, .present-address{
+    display: flex;
+}
+.marital1{
+    margin: 0;
+}
+.pan-section{
+    font-size: 12px;
+    font-weight: 600;
+    margin: 5px;
+}
+.emptype, .servent, .qualification,.adhar-section, .visibale-section{
+    width: 50%;
+}
+.agree-section{
+    width: 50%;
+    border: 1px solid #000000;
+    margin: 5px;
+}
+.agree-checkbox{
+    display: flex;
+}
+.present-address, .street-name, .city, .state-section
+, .state-zip{
+margin: 5px;
+width: 50%;
+}
+.email-id{
+    margin: 5px;
+    font-size: 12px;
+    width: 50%;
+}
+.permanent-address{
+    margin: 5px;
+    display: flex;
+    width: 50%;
+}
+.mobile-section{
+    margin: 5px;
+    width: 50%;
+}
+.certificate-address, .indenty-text{
+    margin: 5px;
+    display: flex;
+    width: 50%;
+}
+.text-section1{
+    width: 50%;
+    display: flex;
+    font-size: 10px;
+    text-align: justify;
+    margin: 5px;
+}
+.radio1{
+    display: flex;
+    align-items: center;
+}

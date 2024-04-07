@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(27, 108, 201, 0.452);
+    margin: 2% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    box-shadow: 2px 5px 30px rgb(5, 63, 73);
+
+    animation: main 2s 2s alternate infinite;
+}
+@keyframes main{
+    from{
+border-radius: 10%;
+background-color: rgba(27, 108, 201, 0.452);
+box-shadow: 2px 5px 30px rgb(5, 63, 73);
+
+
+    }
+    to{
+        border-radius: 40%;
+    box-shadow: 2px 5px 30px rgb(7, 104, 107);
+    background-color: rgba(27, 195, 201, 0.452);
+    }
+}
+.dot{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+.loader-clock{
+    height: 300px;
+    width: 300px;
+    border: 6px solid beige;
+    background-color: rgba(5, 142, 177, 0);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 1px 2px 40px 0.5px  black;
+
+}
+
+
+.needle-1{
+    border: 1px solid rgb(37, 37, 36);
+    width: 120px;
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 310px;
+    left: 643px;
+
+    animation-name: time;
+animation-duration: 60s;
+animation-delay: 1s;
+animation-timing-function: steps(60);
+animation-iteration-count: infinite;
+transform-origin: left;
+}
+@keyframes time{
+    from{
+transform: rotate(-90deg);
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+}
+.needle-2{
+    border: 1px solid beige;
+    width: 90px;
+    transform: rotate(360deg);
+    position: absolute;
+    bottom: 310px;
+    left: 645px;
+    animation-name: time;
+    animation-duration: 60m;
+    animation-delay: 7s;
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite;
+    transform-origin: left;
+}
+
+.number{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(20, 63, 126), transparent;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+.number-1{
+    position: relative;
+    left: 123px;
+    bottom: 25px;
+}
+.number-2{
+    position: relative;
+    left: -15px;
+    bottom: 25px;
+    top: 90px;
+}
+.number-3{
+    position: relative;
+    left: 260px;
+    bottom: 25px;
+    top: 67px;
+}
+.number-4{
+    position: relative;
+    left: 122px;
+    bottom: 25px;
+    top: 182px;
+}
+.number-5{
+    position: relative;
+    left: 240px;
+    bottom: 25px;
+    top: 90px;
+}
+.number-6{
+    position: relative;
+    left: 50px;
+    bottom: 25px;
+    top: -119px;
+}
+.number-7{
+    position: relative;
+    left: -5px;
+    bottom: 25px;
+    top: 33px;
+}
+.number-8{
+    position: relative;
+    left: 175px;
+    bottom: 25px;
+    top: -174px;
+}
+.number-9{
+    position: relative;
+    left: 190px;
+    bottom: 25px;
+    top: 50px;
+}
+.number-10{
+    position: relative;
+    left: 235px;
+    bottom: 25px;
+    top: -160px;
+}
+.number-11{
+    position: relative;
+    left: 60px;
+    bottom: 25px;
+    top: 8px;
+}
+.number-12{
+    position: relative;
+    left: -2px;
+    bottom: 25px;
+    top: -208px;
+}
+
+
+

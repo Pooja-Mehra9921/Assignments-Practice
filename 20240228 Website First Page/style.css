@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    background-color: rgb(255, 255, 255);
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.LOGOHEAD{
+    height: 40px;
+    width: 40px;
+}
+.logo-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px;
+    margin-left: 45px;
+}
+
+select{
+    border: none;
+    margin-left: 2px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+button{
+    background-color: rgb(70, 70, 237);
+    border: none;
+    color: white;
+    height: 24px;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 650px;
+    margin-top: 10px;
+}
+.menu-section{
+    display: flex;
+    margin-bottom: 10px;
+}
+p{
+    margin-left: 45px;
+}
+img{
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.content-section{
+    background-color: rgb(207, 75, 75);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mid-section{
+    background-color: rgb(184, 31, 107);
+    width: 900px;
+    height: 500px;
+    
+}
+
+.img5{
+    width: 140px;
+}
+.text-section{
+    text-align: right;
+}
+.portal1{
+    display: flex;
+    margin-top: 15px;
+}
+.portal2{
+    width: 100%;
+    height: 70px;
+    background-color: purple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: white;
+    font-size: 25px;
+    
+}
+
+.facebook{
+    height: 50px;
+    width: 55px;
+}
+.youtube{
+    height: 40px;
+    width: 70px;
+}
+
+.linkdin{
+    height: 48px;
+    width: 48px;
+}

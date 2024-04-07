@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.sun{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 590px;
+    bottom: 243px;
+}
+  
+.mercury-lineas{
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation: planet;
+    animation-duration: 30s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ 
+}
+.venus-lineas{
+    height: 250px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+    animation: planet;
+    animation-duration: 30s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.earth-lineas{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+    animation: planet;
+    animation-duration: 30s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.mars-lineas{
+    height: 350px;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+    animation: planet;
+    animation-duration: 30s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.jupiter-lineas{
+    height: 400px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+    animation: planet;
+    animation-duration: 30s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.satrun-lineas{
+    height: 450px;
+    width: 450px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+    animation: planet;
+    animation-duration: 30s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.uranus-lineas{
+    height: 500px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+    animation: planet;
+    animation-duration: 30s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.neptune-lineas{
+    height: 550px;
+    width: 550px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+    animation: planet;
+    animation-duration: 30s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.neptune-lineas, .uranus-lineas, .satrun-lineas, .jupiter-lineas, .mars-lineas, .earth-lineas, .venus-lineas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* planets */
+.mercury, .venus{
+    position: absolute;
+    left: -15px;
+    height: 50px;
+
+}
+ .venus{
+    position: absolute;
+    left: -22px;
+    height: 45px;
+}
+.earth{
+    position: absolute;
+    left: -22px;
+    height: 45px;
+}
+.mars{
+    position: absolute;
+    left: -20px;
+    height: 45px;
+}
+.jupiter{
+    position: absolute;
+    left: -20px;
+    height: 45px;
+}
+.satrun{
+    position: absolute;
+    left: -20px;
+    height: 20px;
+}
+.uranus{
+    position: absolute;
+    left: -19px;
+    height: 13px;
+}
+.neptune{
+    position: absolute;
+    left: -22px;
+    height: 42px;
+}
+@keyframes planet{
+    from{transform: rotate(0turn);}
+    to{transform: rotate(1turn);}
+
+}

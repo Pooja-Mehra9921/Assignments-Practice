@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Passport Application
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <header class="head">
+                <div class="logo-section">
+                    <img class="satya" src="logo.png" alt="logo">
+                </div>
+                <div class="text-section">
+                    <div class="text1"><p class="passport-text">PASSPORT APPLICATION FORM<br>
+                        Government of India, Ministry of External Affairs</p></div>
+                        <div class="text2"><p class="passport-para">Please read the Passport Instruction Booklet carefully before filling the form. Furnishing of incorrect information/
+                            suppression of information would lead to rejection of application and would attract penal provisions as prescribed
+                            under the Passports Act, 1967. Please produce your original documents at the time of submission of the form. All fields
+                            marked with (*) are mandatory to fill.</p></div>
+                </div>
+            </header>
+            <form action="get">
+                <div class="service-required">
+                    <p class="service">Service Required</p>
+                </div>
+                <div class="dropdown-section">
+                   <p class="apply">Applying for*</p>
+                    <select name="apllying" id="applying">
+                        <option value="0"></option>
+                        <option value="1">Fress Passport</option>
+                        <option value="2">Re-issue of Password</option>
+                    </select>
+                </div>
+                <div class="checkbox-section1">
+                    <p class="type">Type of Application*</p>
+                    <input type="radio" name="radio-button"><span style="margin-left: 2px; margin-right: 10px;">Normal</span> 
+                    <input type="radio" name="radio-button"><span style="margin-left: 2px; margin-right: 10px;">Tatkaal</span>
+                </div>
+                <div class="checkbox-section2">
+                    <p class="type">Type of Passport Booklet*</p>
+                    <input type="radio" name="radio-button"><span style="margin-left: 2px; margin-right: 10px;">Normal</span>
+                    <input type="radio" name="radio-button"><span style="margin-left: 2px; margin-right: 10px;">Tatkaal</span>
+                </div>
+                <div class="applicant-details">
+                    <p class="applicant">Applicant Details</p>
+                </div>
+                <p class="applicant-name">Applicant's Given Name (Given Name means First Name followed by middle Name (if any)) *
+                </p>
+                <input class="all-inputs" type="text">
+                <p class="applicant-name">Surname
+                </p>
+                <input class="all-inputs" type="text">
+                <div class="gender-section">
+                    <p class="Gender">Gender*</p>
+                    <select name="Gender" id="gender">
+                        <option value="0"></option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3">Other</option>
+                    </select>
+                </div>
+                <div class="checkbox-section2">
+                    <p class="type">Are you known by any other names(aliases)? *</p>
+                    <input type="radio" name="radio-button"><span style="margin-left: 2px; margin-right: 10px;">Yes</span>
+                    <input type="radio" name="radio-button"><span style="margin-left: 2px; margin-right: 10px;">No</span>
+                </div>
+                <div class="checkbox-section2">
+                    <p class="type">Have you ever changed your name ? *
+                    </p>
+                    <input type="radio" name="radio-button"><span style="margin-left: 2px; margin-right: 10px;">Yes</span>
+                    <input type="radio" name="radio-button"><span style="margin-left: 2px; margin-right: 10px;">No</span>
+                </div>
+                </div>
+                <div class="date">
+                    <p class="date-text">Date of Birth (DD/MM/YYYY) * </p>
+                    <input type="date">
+                </div>
+                <div class="place-of-birth">
+                    <p class="place">Place of Birth</p>
+                </div>
+                <div class="checkbox-section2">
+                    <p class="type">Is your Place of Birth out of India? **</p>
+                    <input type="radio" name="radio-button"><span style="margin-left: 2px; margin-right: 10px;">Yes</span>
+                    <input type="radio" name="radio-button"><span style="margin-left: 2px; margin-right: 10px;">No</span>
+                </div>
+                </div>
+                <div class="town-city">
+                    <p class="town">Village or Town or City *</p>
+                    <input type="text">
+                </div>
+                <div class="marital-section">
+                    <div class="marital-status">
+                        <p class="marital" style="margin-right: 2px;">Marital Status</p>
+                    <select class="marital1" name="marital" id="marital">
+                        <option value="Select"></option>
+                        <option value="single">Single</option>
+                        <option value="married">Married</option>
+                        <option value="divorce">Divorce</option>
+                        <option value="widow">Widow/Widower</option>
+                        <option value="separared">Separated</option>
+                    </select>
+                    </div>
+                    <div class="citizen-status">
+                        <p style="margin-left: 5px; margin-right: 5px;">Citizenship of India by *
+                        </p>
+                        <select class="marital1 name="citizenship" id="citizenship">
+                            <option value="Select"></option>
+                            <option value="single">Birth</option>
+                            <option value="married">Descant</option>
+                            <option value="divorce">Registration/naturalization</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="pan-section">
+                    PAN (If available)
+                    <input type="text">
+                    Voter ID (If available)
+                    <input type="text">
+                </div>
+                <div class="emptype">
+                    <span style="margin: 5px; font-size: 12px; font-weight: 600;">Employment Type *</span>
+                    <select name="type" id="type" style="width: 80%; margin: 0;">
+                        <option value="0"></option>
+                        <option value="1">Government</option>
+                        <option value="2">Homemaker</option>
+                        <option value="3">Not employed</option>
+                        <option value="4">Others</option>
+                        <option value="5">Owners, Partners & Directors of companies which are members of CII, FICCI & ASSOCHAM </option>
+                        <option value="6">Private</option>
+                        <option value="7">PSU</option>
+                        <option value="8">Retired Government Servant</option>
+                        <option value="9">Retired- Private Service</option>
+                        <option value="10">Self Employed</option>
+                        <option value="11">Statutory Body</option>
+                    </select>
+                </div>
+                <div class="servent">
+    <span style="font-size: 12px; font-weight: 600; margin: 5px;">Is either of your parent (in case of minor)/ spouse, a government servant? *</span>
+    <select name="servant" id="servant" style="width: 50px; margin: 0; margin-top: 5px;">
+        <option value="0"></option>
+        <option value="1">Yes</option>
+        <option value="2">No</option>
+    </select>
+                </div>
+                <div class="qualification">
+                    <span style="font-size: 12px; font-weight: 600; margin: 5px; margin-right: 0;">Educational Qualification * </span>
+                    <select name="qualification" id="qualification" style="margin: 0; width: 174px;">
+                    <option value="0"></option>
+                    <option value="1">7th pass or less </option>
+                    <option value="2">Between 8th and 9th standard</option>
+                    <option value="3">10th pass and above</option>
+                    <option value="4">Graduate and above</option>
+                </select>
+                <span style="font-size: 12px; font-weight: 600; margin: 5px; width: 15px; margin-left: 0;">Are you eligible for Non-ECR category? *</span>
+                    <select name="categary" id="categary" style="margin: 0; width: 50px;">
+                    <option value="0"></option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                </div>
+                <div class="visibale-section">
+                    <span style="font-size: 12px; font-weight: 600; margin: 5px;">Visible Distinguishing Mark</span>
+                    <input type="text" style="width: 460px; margin-top: 5px;">
+                </div>
+                <div class="adhar-section">
+                    <span style="font-size: 12px; font-weight: 600; margin: 5px; margin-right: 64px;">Aadhaar Number</span>
+                    <input type="text" style="width: 460px; margin-top: 5px;">
+                </div>
+                <div class="agree-section">
+                    <p style="font-size: 10px; text-align: justify; margin: 5px;">I, the holder of above mentioned Aadhaar Number , hereby give my consent to Passport Seva to obtain my Aadhaar Number, Name and
+                        Fingerprint/Iris for authentication with UIDAI. I have no objection using my identity and biometric information for validation with Aadhaar
+                        (CIDR) database only for the purpose of authentication.</p>
+                        <div class="agree-checkbox">
+                            <span style="font-size: 12px; margin: 5px;">I agree </span>
+                        <input type="checkbox"><span style="font-size: 12px; margin: 5px;">Yes</span> 
+                        <input type="checkbox"><span style="font-size: 12px; margin: 5px;">No</span>
+                        </div> 
+                </div>
+                <div class="present-details">
+                    <p class="present">Family Details (Father/Mother/Legal Guardian details; at least one is mandatory.) *</p>
+                </div>
+                <p class="applicant-name">Father's Given Name (Given Name means First Name followed by Middle Name (If any))
+                </p>
+                <input class="all-inputs" type="text">
+                <p class="applicant-name">Surname
+                </p>
+                <input class="all-inputs" type="text">
+                <p class="applicant-name">Legal Guardian's Given Name (if applicable)
+                </p>
+                <input class="all-inputs" type="text">
+                <p class="applicant-name">Surname
+                </p>
+                <input class="all-inputs" type="text">
+                <p class="applicant-name">Mother's Given Name (Given Name means First Name followed by Middle Name (If any)) 
+    
+                </p>
+                <input class="all-inputs" type="text">
+                <p class="applicant-name">Surname
+                </p>
+                <input class="all-inputs" type="text">
+                <div class="family-details">
+                    <p class="present">Present Residential Address Details (where applicant presently resides) </p>
+                </div>
+                <div class="present-address">
+                    <span style="font-size: 12px; font-weight: 600; margin-right: 100px;">Is your present address out of India? *</span>
+                    <input type="radio" name="india"><span style="font-size: 12px; margin-left: 2px; margin-right: 10px;">Yes</span>
+                    <input type="radio" name="india"><span style="font-size: 12px; margin-left: 2px;">No</span>
+                </div>
+                <div class="street-name">
+                    <span style="font-size: 12px;"> House No. and Street Name *</span>
+                    <input type="text" style="width: 465px;">
+                </div>
+    <div class="city">
+        <span style="font-size: 12px;">Village or Town or City *</span>
+        <input type="text">
+        <span style="font-size: 12px;">Region/Country *</span>
+        <select name="country" id="country" style="width: 230px; margin: 0;">
+            <option value="0"></option>
+            <option value="1">America</option>
+            <option value="2">Australia</option>
+            <option value="3">India</option>
+            <option value="4">canada</option>
+            <option value="5">Newziland</option>
+        </select>
+    </div>
+    <div class="state-section">
+        <span style="font-size: 12px;">State/ Province</span>
+        <input type="text" style="width: 220px;">
+        <span style="font-size: 12px;">District/ County</span>
+        <input type="text" style="width: 230px;">
+    </div>
+    <div class="state-zip">
+        <span style="font-size: 12px;">Zip Code</span>
+        <input type="text" style="width: 100px; margin-right: 32px;">
+        <span style="font-size: 12px;">Mobile Number *</span>
+        <input type="text" style="width: 100px; margin-right: 32px;">
+        <span style="font-size: 12px;">Telephone Number</span>
+        <input type="text" style="width: 100px;">
+    </div>
+    <div class="email-id">
+        E-mail ID *
+        <input type="text" style="width: 565px;">
+    </div>
+    <div class="permanent-address">
+        <span style="font-size: 12px; font-weight: 600; margin-right: 100px;">Do you have a Permanent Address? * </span>
+                    <input type="radio" name="india"><span style="font-size: 12px; margin-left: 2px; margin-right: 10px;">Yes</span>
+                    <input type="radio" name="india"><span style="font-size: 12px; margin-left: 2px;">No</span>
+    </div>
+    <div class="energency-details">
+        <p class="energency">Emergency Contact Details *</p>
+    </div>
+    <p style="font-size: 12px; margin: 5px; margin-bottom: 0px;">Name and Address *</p>
+    <input class="all-inputs" type="text">
+            
+            <div class="mobile-section">
+                <span style="font-size: 12px; margin-right: 20px;">Mobile Number*</span>
+                <input type="text" style="width: 200px;">
+                <span style="font-size: 12px;">Telephone Number</span>
+                <input type="text" style="width: 200px;">
+            </div>
+            <div class="email-id">
+                E-mail ID *
+                <input type="text" style="width: 565px;">
+            </div>
+            <div class="identity-details">
+                <p class="identity">Identity Certificate /Passport Details</p>
+            </div>
+            <div class="certificate-address">
+                <span style="font-size: 12px; font-weight: 600; margin-right: 100px;">Have you ever held/hold any Identity Certificate? *
+                </span>
+                            <input type="radio" name="india"><span style="font-size: 12px; margin-left: 2px; margin-right: 10px;">Yes</span>
+                            <input type="radio" name="india"><span style="font-size: 12px; margin-left: 2px;">No</span> 
+                        </div>
+                        <div class="indenty-text">
+                            <p style="font-size: 10px; font-weight: 600; text-align: justify;">(Identity Certificate(IC) is normally issued to Tibetan/other stateless people residing in India)<br>
+                                Details of Previous/Current Diplomatic/Official Passport* </p>
+                        </div>
+                        <div class="other-details">
+                            <p class="other">Other Details</p>
+                        </div>
+                        <p style="width: 50%; font-size: 12px; margin: 5px; font-weight: 600;"> 1) Provide the following details if there are any criminal proceedings pending against the applicant.</p>
+                        <div class="text-section1">
+                       <p style="width: 80%; margin-right: 40px;">Are any proceedings in respect of an offence alleged to have been committed by you pending before a criminal court
+                        in India? *</p>
+                        <div class="radio1">
+                            <input type="radio"><span style="margin: 5px;">Yes</span>
+                        <input type="radio"><span style="margin: 5px;">No</span>
+                        </div>
+                        </div>
+                        
+                    </form>
+        </div>    
+                </body>
+</html>
